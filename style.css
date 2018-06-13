@@ -1,0 +1,143 @@
+.body 
+{
+	margin: 0;
+	padding: 0;
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #f5f5f5;
+	color: #4d4d4d;
+	min-width: 230px;
+	max-width: 550px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-weight: 300;
+}
+.box
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    font-style: italic;
+	font-weight: 300;
+	color: #373333;
+}
+.box:focus 
+{
+    border: 3px solid #555;
+}
+h1 
+{
+	font: bold italic 3em/1em "Times New Roman", "MS Serif", "New York", serif;
+	margin: 100px;
+	top: 130px;
+	width: 70%;
+	font-size: 70px;
+	font-weight: 100;
+	color: rgba(175, 47, 47, 0.15);
+}
+.check1 , .cross
+{
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	display: inline-block;
+	opacity: 1;
+}
+.undo
+{
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	opacity: 1;
+}
+.Note
+{
+	font-style: italic;
+	font-size: 11px;
+}
+.status
+{
+	font-style: italic;
+	font-size: 12px;
+	color: #5E5757;
+}
+.button1 
+{
+  	background-color: #ECD6D6;
+    border: #100F0F;
+    color: #805D5D;
+    bottom: 10px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border: 1px solid #F71111;
+}
+.button3
+{
+	background-color: #CD6B6B;
+    border: #FE0D0D;
+    border: 1px solid #FE0D0D;
+}
+.button1:hover , .button2:hover , .button3:hover	 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 0px solid #F71111;
+}
+.disabled
+{
+	background-color: #ECD6D6;
+    border: #100F0F;
+    color: #805D5D;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    border: 1px solid #F71111;
+	opacity: 0.6;
+    cursor: not-allowed;
+}
+.button2
+{
+	background-color: #ECD6D6;
+    border: #100F0F;
+    color: #805D5D;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 20px;
+    border: 1px solid #F71111;
+}
+.items
+{
+	width: 70%;
+	font-style: 20px 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+	color: #3D3838;
+	text-align: left;
+	align-items: center;
+	margin-bottom: 1px;
+	overflow: auto;
+}
+.itemsBox
+{
+	background: transparent url('images/block.jpg') no-repeat;
+}
+del
+{
+	color: #8E8282;
+}
+.buttonClass
+{
+	align-items: center;
+	margin-left: 18%;
+}
